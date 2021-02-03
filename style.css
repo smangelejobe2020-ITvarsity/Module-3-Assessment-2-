@@ -6,13 +6,13 @@ body{
     font-family: sans-serif;
     
     margin: 0px;
-    padding: 0px;
+    padding: 100px;
     
     height: 100%;
 }
 
 .body-home{
-    background-image: url('images/macdonald%20logo%205%20.png');
+    background-image: url('images/backgrond%203.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body{
 }
 
 .body-meals{
-    background-image: url('images/macdonald%20burger%20background.jpg');
+    background-image: url('images/over%20the%20moon%201.jpg');
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body{
     
     width:100%;
     height: 50px;
-    top:0;
+    top:10px;
     
     position: fixed;
     overflow: hidden;
@@ -45,13 +45,14 @@ body{
 .header i{
     float: left;
     padding: 17px 0px 0px 17px;
-    color: black;
+    color: yellow;
 }
 
 .header img {
-    width: 85px;
-    padding-top: 15px;
-    padding-right: 15px;
+    width: 40px;
+    height: 40%;
+    padding-top: 14px;
+    padding-right: 10px;
 }
 
 
@@ -62,14 +63,14 @@ body{
     width: 13%;
     display: block;
     margin: auto;
-    padding: 22px 10px 10px 10px;
+    padding: 25px 10px 10px 10px;
 }
 
 #home-logo-text{
    width: 13%;
     display: block;
     margin: auto;
-    padding: 25px;
+    padding: 15px;
 }
 
 /*===== HOME PAGE MENU =====*/
@@ -93,7 +94,7 @@ body{
 /*========== MEALS PAGE ==========*/
 
 #meals{
-    padding-top:  50px;
+    padding-top:10px;
 }
     
 /*===== MEALS PAGE MENU =====*/
@@ -117,7 +118,7 @@ body{
 
 .meals-list-item i{
     float: right;
-    color:#1a1a1a;
+    color:deeppink;
     padding: right 10px;
 }
 
@@ -168,7 +169,7 @@ body{
 }
 
 .recipe-details-ingredients label{
-    line-height: 25px;
+    line-height: 70px;
     margin-left: 10px;
 }
 
@@ -222,11 +223,11 @@ body{
 
 @media only screen and (min-width:720px){
     .body-home{
-        background-image: url('images/background%201.jpg');
+        background-image: url('images/background%20land%201.jpg');
     }
     
     .bdy-meals{
-        background-image: url('images/background%202.jpg');
+        background-image: url('images/background%20port%201.jpg');
     }
 }
 
